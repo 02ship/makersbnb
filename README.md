@@ -13,7 +13,7 @@ Create a web application named MakersBnB that allows users to list and hire avai
 ### Technologies
 
 - Written in Ruby 
-- Sinatra and Rack for handling requests and responses
+- Sinatra for handling requests and responses
 - Capybara for featuring testing
 - RSpec for unit testing
 - PostgreSQL for the databases
@@ -22,13 +22,13 @@ Create a web application named MakersBnB that allows users to list and hire avai
 
 ### Headline specifications
 
-[x] Any signed-up user can list a new space.
-[x] Users can list multiple spaces.
-[x] Users should be able to name their space, provide a short description of the space, and a price per night.
-[]Users should be able to offer a range of dates where their space is available.
-[]Any signed-up user can request to hire any space for one night, and this should be approved by the user that owns that space.
-[]Nights for which a space has already been booked should not be available for users to book that space.
-[]Until a user has confirmed a booking request, that space can still be booked for that night.
+- [x] Any signed-up user can list a new space.
+- [x] Users can list multiple spaces.
+- [x] Users should be able to name their space, provide a short description of the space, and a price per night.
+- []Users should be able to offer a range of dates where their space is available.
+- []Any signed-up user can request to hire any space for one night, and this should be approved by the user that owns that space.
+- []Nights for which a space has already been booked should not be available for users to book that space.
+- []Until a user has confirmed a booking request, that space can still be booked for that night.
 
 ### User Stories
 
@@ -84,22 +84,22 @@ The place can be hired (made unavailable) via the website.
 
 #### Plan for Day 1 Afternoon Work
 
-Model/Database - Paul & Ilja
+**Model/Database - Paul & Ilja**
 
-- setting up (development and test) databases (id, name)
-- DatabaseConnection class
+- [x] setting up (development and test) databases (id, name)
+- [x] DatabaseConnection class
 - Space class
   - .all
   - .create
   - hire
 
-Views/Controller - Dillon & Matteo
+**Views/Controller - Dillon & Matteo**
 
-- setting up development environment
-- diagram route for web app (adhering to RESTful design principles)
-- home/landing page for MakersBnB
-- index page for Spaces list (display name)
+- [x] setting up development environment
+- [] diagram route for web app (adhering to RESTful design principles)
+- [x] home/landing page for MakersBnB
+- [x] index page for Spaces list (display name)
 - create (add) Space page
 - add a Hire button
 
-Float - Ryan
+**Float - Ryan**

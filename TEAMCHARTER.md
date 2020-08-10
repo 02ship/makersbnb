@@ -20,6 +20,7 @@ Dillon, Ilja, Matteo, Paul and Ryan
 - Retrospective Every Evening: 17:30-18:00
 - Independent Learning Time: 1 - 1.5 hours a day
 - 15 minute break every morning and afternoon pairing session, with 15 minute warning to other work pair in Slack channel
+- Morning meeting we will set objectives of day, with a focus on depedencies that will occur
 - Opportunity to explain, justify and evaluate Pull Requests on daily basis prior to retro
 
 
@@ -29,6 +30,7 @@ All team roles rotate on a daily basis.
 #### Daily Positions
 2 pair teams of 2 team members
 1 float "Super Navigator" 
+ - being aware of upcoming compatibility and pairing team dependencies
 
 
 [Team Charter Guide](https://docs.google.com/document/d/1w7NYpBkFHx2If4B3iQ6LMX0IXa5ovDC7NU-TkoMLbVk/edit)
