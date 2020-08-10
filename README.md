@@ -4,7 +4,7 @@ Week 6 Group Project utilising AGILE project management
 
 ### Team Members
 
-Dillon, Ilja, Matteo, Paul and Ryan 
+Dillon, Ilja, Matteo, Paul and Ryan
 
 ### Project Specification
 
@@ -12,8 +12,13 @@ Create a web application named MakersBnB that allows users to list and hire avai
 
 ### Technologies
 
+<<<<<<< HEAD
 - Written in Ruby 
 - Sinatra for handling requests and responses
+=======
+- Written in Ruby
+- Sinatra and Rack for handling requests and responses
+>>>>>>> 14179076c3165c459b339747c8bccdced0cfbe95
 - Capybara for featuring testing
 - RSpec for unit testing
 - PostgreSQL for the databases
@@ -71,7 +76,7 @@ I want to be able to change availability depending on date
 ```
 
 
-### Initial Planning 
+### Initial Planning
 
 #### Initial Goal
 Create Minimum Viable Product by end of day 2.
@@ -102,4 +107,23 @@ The place can be hired (made unavailable) via the website.
 - create (add) Space page
 - add a Hire button
 
+<<<<<<< HEAD
 **Float - Ryan**
+=======
+Float - Ryan
+
+#### Setup Database
+Connect to postgres, then create database:
+```` psql postgres;
+    CREATE DATABASE makersbnb;
+    ````
+connect to database using command ````\c makersbnb;
+````
+For test database: connect to postgres, then create database:
+```` psql postgres;
+    CREATE DATABASE makersbnb_test;
+    ````
+Connect to database using command ````\c makersbnb_test;
+    ````
+Run all the queries detailed in the migrations directory.
+>>>>>>> 14179076c3165c459b339747c8bccdced0cfbe95
