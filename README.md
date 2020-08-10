@@ -4,7 +4,7 @@ Week 6 Group Project
 
 ### Project Specification
 
-Create a web application named Makersbnb that allows signed-up users to list and hire available spaces, (an "Airbnb clone").
+Create a web application named MakersBnB that allows signed-up users to list and hire available spaces, (an "Airbnb clone").
 
 ### Technologies
 
@@ -31,7 +31,7 @@ Until a user has confirmed a booking request, that space can still be booked for
 
 ### User Stories
 
-``` 
+```
 As a User
 So I can use MakersBnB
 I need to sign up as a user
@@ -50,11 +50,11 @@ I want each space to have a name
 
 As a User
 So other users can learn more about the space
-I want each space to have a short description 
+I want each space to have a short description
 
 As a User
 So other users know how much it will cost to hire
-I want each space to have a price per night 
+I want each space to have a price per night
 
 As a User
 So other users know whether a space is available
@@ -95,7 +95,3 @@ Views/Controller
 - index page for Spaces list (display name)
 - create (add) Space page
 - add a Hire button
-
-
-
-
