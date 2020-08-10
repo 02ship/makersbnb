@@ -1,17 +1,17 @@
 require 'capybara/rspec'
 require 'simplecov'
 require 'simplecov-console'
+require_relative '../app'
 
 ENV['ENVIRONMENT'] = 'test'
 
-RSpec.configure do |config| 
-  config.before(:each) do 
-   
-  end
- end
+RSpec.configure do |config|
+  config.before(:each) do
 
-SimpleCov.formatter =
-SimpleCov::Formatter::MultiFormatter.new([ 
+  end
+end
+
+SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
   SimpleCov::Formatter::Console,])
- SimpleCov.start 
+SimpleCov.start
 Capybara.app = App
