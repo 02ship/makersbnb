@@ -8,7 +8,7 @@ Create a web application named Makersbnb that allows signed-up users to list and
 
 ### Technologies
 
-Ruby and Sinatra
+Written in Ruby and Sinatra
 Teamwork: Agile, standups, retros
 
 Initial Goal
