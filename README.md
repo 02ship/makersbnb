@@ -1,51 +1,52 @@
 ## MakersBnB
 
-Week 6 Group Project
+Week 6 Group Project utilising AGILE project management
+
+### Team Members
+
+Dillon, Ilja, Matteo, Paul and Ryan 
 
 ### Project Specification
 
-Create a web application named MakersBnB that allows signed-up users to list and hire available spaces, (an "Airbnb clone").
+Create a web application named MakersBnB that allows users to list and hire available spaces.
 
 ### Technologies
 
-Written in Ruby and Sinatra
-Teamwork: Agile, standups, retros
-
-Initial Goal
-Create Minimum Viable Product by Tuesday night
+- Written in Ruby 
+- Sinatra and Rack for handling requests and responses
+- Capybara for featuring testing
+- RSpec for unit testing
+- PostgreSQL for the databases
+- Ruby Gemfile ```pg``` for connecting and executing SQL on PostgreSQL databases
+- Ruby Gemfile ```rubocop``` for code analysis and formatting
 
 ### Headline specifications
 
 [x] Any signed-up user can list a new space.
 [x] Users can list multiple spaces.
 [x] Users should be able to name their space, provide a short description of the space, and a price per night.
-
-
-Users should be able to offer a range of dates where their space is available.
-
-Any signed-up user can request to hire any space for one night, and this should be approved by the user that owns that space.
-
-Nights for which a space has already been booked should not be available for users to book that space.
-
-Until a user has confirmed a booking request, that space can still be booked for that night.
+[]Users should be able to offer a range of dates where their space is available.
+[]Any signed-up user can request to hire any space for one night, and this should be approved by the user that owns that space.
+[]Nights for which a space has already been booked should not be available for users to book that space.
+[]Until a user has confirmed a booking request, that space can still be booked for that night.
 
 ### User Stories
 
 ```
 As a User
-So I can use MakersBnB
-I need to sign up as a user
+So I can see what spaces are available for hire
+I want to see a list of available spaces
 
 As a User
 So I can make a space available for hire
-I want to be able to list my available space
+I want to be able to add my space to the list of available spaces
 
 As a User
 So I can make multiple spaces available for hire
-I want to be able to list more than one space
+I want to be able to add more than one space to the list of available spaces
 
 As a User
-So I can tell spaces apart
+So I and other users can tell spaces apart
 I want each space to have a name
 
 As a User
@@ -57,6 +58,10 @@ So other users know how much it will cost to hire
 I want each space to have a price per night
 
 As a User
+So I can use MakersBnB
+I need to sign up as a user
+
+As a User
 So other users know whether a space is available
 I want each space to show it's availability
 
@@ -65,18 +70,21 @@ So I can control when a space is available or not
 I want to be able to change availability depending on date
 ```
 
-### MVP
 
-A place can be added to a list/database.
-The place can be hired (made unavailable).
+### Initial Planning 
+
+#### Initial Goal
+Create Minimum Viable Product by end of day 2.
+
+#### MVP
+A webpage that lists spaces available for hire.
+A place can be added to a list via the website.
+The place can be hired (made unavailable) via the website.
 
 
-#### Monday Afternoon
+#### Plan for Day 1 Afternoon Work
 
-Float - Ryan
-Paul & Ilja
-Model/Database
-- Ruby, postgreSQL
+Model/Database - Paul & Ilja
 
 - setting up (development and test) databases (id, name)
 - DatabaseConnection class
@@ -85,9 +93,7 @@ Model/Database
   - .create
   - hire
 
-Dillon & Matteo
-Views/Controller
-- Ruby, Sintatra
+Views/Controller - Dillon & Matteo
 
 - setting up development environment
 - diagram route for web app (adhering to RESTful design principles)
@@ -95,3 +101,5 @@ Views/Controller
 - index page for Spaces list (display name)
 - create (add) Space page
 - add a Hire button
+
+Float - Ryan
