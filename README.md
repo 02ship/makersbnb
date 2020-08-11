@@ -69,6 +69,9 @@ As a User
 So I can control when a space is available or not
 I want to be able to change availability depending on date
 ```
+#### diagram
+Is in images folder
+<img src="images/mvcdiagram.png">
 
 #### Setup Database
 Connect to postgres, then create database:
