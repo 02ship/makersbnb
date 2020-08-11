@@ -123,14 +123,17 @@ A place can be added to a list via the website.
 
 Float - Ryan
 
-#### Plan for Day 2 Afternoon Work
-
+#### Plan for Day 2 Work
 
 **Ilja Gonciarov & Matteo Micozzi**
-- [] diagram route for web app (adhering to RESTful design principles)
+- [X] diagram route for web app (adhering to RESTful design principles)
 - [] create (add) Space page
 
 **Ryan & Paul**
-- [] Space class
- - [] .all
+- [X] Space class
+ - [X] .all
  - [] .create
+
+**Overall Goal**
+- MVP
+  - [] Interact between controller and model
