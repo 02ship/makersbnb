@@ -13,7 +13,7 @@ Create a web application named MakersBnB that allows users to list and hire avai
 ### Technologies
 
 - Written in Ruby
-- Sinatra and Rack for handling requests and responses
+- Sinatra for handling requests and responses
 - Capybara for featuring testing
 - RSpec for unit testing
 - PostgreSQL for the databases
@@ -69,8 +69,8 @@ As a User
 So I can control when a space is available or not
 I want to be able to change availability depending on date
 ```
-#### diagram
-Is in images folder
+#### MVC Diagram
+
 <img src="images/mvcdiagram.png">
 
 #### Setup Database
@@ -99,41 +99,3 @@ Create Minimum Viable Product by end of day 2.
 #### MVP
 A webpage that lists spaces available for hire.
 A place can be added to a list via the website.
-
-
-#### Plan for Day 1 Afternoon Work
-
-**Model/Database - Paul & Ilja**
-
-- [x] setting up (development and test) databases (id, name)
-- [x] DatabaseConnection class
-- [] Space class
-  - .all
-  - .create
-  - hire
-
-**Views/Controller - Dillon & Matteo**
-
-- [x] setting up development environment
-- [] diagram route for web app (adhering to RESTful design principles)
-- [x] home/landing page for MakersBnB
-- [x] index page for Spaces list (display name)
-- create (add) Space page
-- add a Hire button
-
-Float - Ryan
-
-#### Plan for Day 2 Work
-
-**Ilja Gonciarov & Matteo Micozzi**
-- [X] diagram route for web app (adhering to RESTful design principles)
-- [X] create (add) Space page
-
-**Ryan & Paul**
-- [X] Space class
- - [X] .all
- - [X] .create
-
-**Overall Goal**
-- MVP
-  - [] Interact between controller and model
