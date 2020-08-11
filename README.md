@@ -70,6 +70,23 @@ So I can control when a space is available or not
 I want to be able to change availability depending on date
 ```
 
+#### Setup Database
+Connect to postgres, then create database:
+```` 
+psql postgres;
+CREATE DATABASE makersbnb;
+````
+connect to database using command ````\c makersbnb;```
+````
+For test database: connect to postgres, then create database:
+```` 
+psql postgres;
+CREATE DATABASE makersbnb_test;
+
+Connect to database using command ````\c makersbnb_test;````
+
+Run all the queries detailed in the migrations directory.
+
 
 ### Initial Planning
 
@@ -79,7 +96,6 @@ Create Minimum Viable Product by end of day 2.
 #### MVP
 A webpage that lists spaces available for hire.
 A place can be added to a list via the website.
-The place can be hired (made unavailable) via the website.
 
 
 #### Plan for Day 1 Afternoon Work
@@ -88,7 +104,7 @@ The place can be hired (made unavailable) via the website.
 
 - [x] setting up (development and test) databases (id, name)
 - [x] DatabaseConnection class
-- Space class
+- [] Space class
   - .all
   - .create
   - hire
@@ -104,19 +120,16 @@ The place can be hired (made unavailable) via the website.
 
 Float - Ryan
 
-#### Setup Database
-Connect to postgres, then create database:
-```` 
-psql postgres;
-CREATE DATABASE makersbnb;
-````
-connect to database using command ````\c makersbnb;```
-````
-For test database: connect to postgres, then create database:
-```` 
-psql postgres;
-CREATE DATABASE makersbnb_test;
-````
-Connect to database using command ````\c makersbnb_test;````
+#### Plan for Day 2 Afternoon Work
 
-Run all the queries detailed in the migrations directory.
+
+**Ilja & Matteo**
+- [] diagram route for web app (adhering to RESTful design principles)
+- [] create (add) Space page
+
+**Ryan & Paul**
+- [] Space class
+ - [] .all
+ - [] .create
+
+ 
