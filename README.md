@@ -127,12 +127,12 @@ Float - Ryan
 
 **Ilja Gonciarov & Matteo Micozzi**
 - [X] diagram route for web app (adhering to RESTful design principles)
-- [] create (add) Space page
+- [X] create (add) Space page
 
 **Ryan & Paul**
 - [X] Space class
  - [X] .all
- - [] .create
+ - [X] .create
 
 **Overall Goal**
 - MVP

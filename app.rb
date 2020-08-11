@@ -1,4 +1,6 @@
 require 'sinatra/base'
+require './lib/space.rb'
+require_relative 'environment_selection.rb'
 
 class App < Sinatra::Base
 
@@ -7,6 +9,7 @@ class App < Sinatra::Base
   end
 
   get '/spaces' do
+    @spaces = Space.all
     erb :spaces
   end
 
@@ -17,8 +20,8 @@ class App < Sinatra::Base
 
   get '/spaces/add' do
     erb :'spaces/add'
-
   end
 
   run! if app_file==$0
+
 end
