@@ -8,4 +8,17 @@ describe Space do
       expect(space.name).to eq("a space")
     end
   end
+
+  describe ".all" do
+    it "return all spaces in spaces table" do
+      DatabaseConnection.setup('makersbnb_test')
+      DatabaseConnection.query("INSERT INTO spaces(name) VALUES('a space');")
+
+      expect(Space.all).to include("a space")
+
+      # expect(Space.all[0]).to be_an_instance_of(Space)
+      # expect(Space.all[0].name).to be("a space")
+
+    end
+  end
 end
