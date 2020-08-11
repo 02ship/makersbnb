@@ -3,7 +3,7 @@ require "space"
 describe Space do
 
   describe "#initialize" do
-    space = Space.new(id: 1, name: "a space", description: 'a nice place to stay')
+    space = Space.new(id: 1, name: "a space", description: 'a nice place to stay', price: 1)
     it "has a name" do
       expect(space.name).to eq("a space")
     end
@@ -12,6 +12,9 @@ describe Space do
     end
     it 'has a description' do
       expect(space.description).to eq('a nice place to stay')
+    end
+    it 'has a price' do
+      expect(space.price).to eq(1)
     end
   end
 
@@ -28,10 +31,12 @@ describe Space do
 
   describe ".create" do
     it "pulls from the database to create a new Space" do
-      space = Space.create(name: 'another space', description: 'another nice place to stay')
+      space = Space.create(name: 'another space', description: 'another nice place to stay', price: 1)
       result = Space.all
+      expect(space.id).to eq(result.first.id)
       expect(space.name).to eq(result.first.name)
-      expect(space.name).to eq(result.first.name)
+      expect(space.description).to eq(result.first.description)
+      expect(space.price).to eq(result.first.price)
     end
   end
 end
