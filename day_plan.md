@@ -34,3 +34,12 @@ Float - Ryan
 **Overall Goal for Day 2**
 - Reach MVP
   - [X] Interact between controller and model
+
+**Extra Goal for Day 2**
+- Adding description and price parameters:
+  Backend:
+  - [] Update model/database with new parameters as keywords (description:, price:)
+  - [] Update db/migrations
+  Frontend:
+  - [] Update views, (the forms) to allow for two new params
+  - [] Update controller
