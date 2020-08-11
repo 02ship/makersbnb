@@ -20,7 +20,13 @@ describe Space do
       expect(Space.all[0].name).to eq("a space")
       expect(Space.all.length).to eq(2)
       expect(Space.all[0].id).to eq(1)
+    end
+  end
 
+  describe ".create" do
+    it "adds a space to the database" do
+      expect(DatabaseConnection).to receive(:query).with("INSERT INTO spaces(name) VALUES('a space');")
+      Space.create("a space")
     end
   end
 end

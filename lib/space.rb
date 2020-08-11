@@ -12,4 +12,8 @@ class Space
     result.map {|space| Space.new(space['id'].to_i, space['name'])}
   end
 
+  def self.create(name)
+    DatabaseConnection.query("INSERT INTO spaces(name) VALUES('#{name}');")
+  end
+
 end
