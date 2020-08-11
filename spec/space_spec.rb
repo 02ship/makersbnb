@@ -3,7 +3,7 @@ require "space"
 describe Space do
 
   describe "#initialize" do
-    space = Space.new(1, "a space")
+    space = Space.new(id: 1, name: "a space")
     it "has a name" do
       expect(space.name).to eq("a space")
     end
@@ -24,9 +24,11 @@ describe Space do
   end
 
   describe ".create" do
-    it "adds a space to the database" do
-      expect(DatabaseConnection).to receive(:query).with("INSERT INTO spaces(name) VALUES('a space');")
-      Space.create("a space")
+    it "pulls from the database to create a new Space" do
+      space = Space.create(name: 'another space')
+      result = Space.all
+      expect(space.name).to eq(result.first.name)
+      expect(space.name).to eq(result.first.name)
     end
   end
 end
