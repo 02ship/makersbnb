@@ -31,7 +31,7 @@ describe Space do
 
   describe ".create" do
     it "pulls from the database to create a new Space" do
-      space = Space.create(name: 'another space', description: 'another nice place to stay', price: 1)
+      space = Space.create(name: 'another space', description: 'another nice place to stay', price: '1')
       result = Space.all
       expect(space.id).to eq(result.first.id)
       expect(space.name).to eq(result.first.name)
