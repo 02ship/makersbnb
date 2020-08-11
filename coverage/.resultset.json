@@ -1,7 +1,56 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/student/Projects/makersbnb/spec/space_spec.rb": {
+      "/Users/student/Desktop/environment/Projects/week-6/MakersBnB/makersbnb/spec/database_connection_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/student/Desktop/environment/Projects/week-6/MakersBnB/makersbnb/lib/database_connection.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          11,
+          null,
+          1,
+          10,
+          null,
+          null
+        ]
+      },
+      "/Users/student/Desktop/environment/Projects/week-6/MakersBnB/makersbnb/spec/features/landing_page_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/student/Desktop/environment/Projects/week-6/MakersBnB/makersbnb/spec/features/spaces_page_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/student/Desktop/environment/Projects/week-6/MakersBnB/makersbnb/spec/space_spec.rb": {
         "lines": [
           1,
           null,
@@ -19,6 +68,7 @@
           1,
           1,
           null,
+          1,
           1,
           null,
           null,
@@ -29,7 +79,7 @@
           null
         ]
       },
-      "/Users/student/Projects/makersbnb/lib/space.rb": {
+      "/Users/student/Desktop/environment/Projects/week-6/MakersBnB/makersbnb/lib/space.rb": {
         "lines": [
           1,
           null,
@@ -40,28 +90,15 @@
           null,
           null,
           1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/student/Projects/makersbnb/lib/database_connection.rb": {
-        "lines": [
-          1,
-          1,
-          1,
           2,
-          null,
-          1,
           2,
+          6,
+          null,
           null,
           null
         ]
       }
     },
-    "timestamp": 1597140478
+    "timestamp": 1597141717
   }
 }

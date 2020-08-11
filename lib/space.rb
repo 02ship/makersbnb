@@ -9,7 +9,7 @@ class Space
   def self.all
     DatabaseConnection.setup('makersbnb_test')
     result = DatabaseConnection.query("SELECT * FROM spaces;")
-    result[0]['name']
+    result.map {|space| space['name']}
   end
 
 end
