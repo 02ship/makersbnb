@@ -1,7 +1,6 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/student/Desktop/environment/Projects/week-6/MakersBnB/makersbnb/spec/database_connection_spec.rb": {
         "lines": [
           1,
           1,
@@ -11,26 +10,18 @@
           null,
           1,
           1,
-          1,
-          1,
           null,
           null
         ]
       },
-      "/Users/student/Desktop/environment/Projects/week-6/MakersBnB/makersbnb/lib/database_connection.rb": {
         "lines": [
           1,
           1,
           1,
-          9,
-          null,
-          1,
-          13,
           null,
           null
         ]
       },
-      "/Users/student/Desktop/environment/Projects/week-6/MakersBnB/makersbnb/spec/features/landing_page_spec.rb": {
         "lines": [
           1,
           1,
@@ -40,7 +31,6 @@
           null
         ]
       },
-      "/Users/student/Desktop/environment/Projects/week-6/MakersBnB/makersbnb/spec/features/spaces_page_spec.rb": {
         "lines": [
           1,
           1,
@@ -50,7 +40,6 @@
           null
         ]
       },
-      "/Users/student/Desktop/environment/Projects/week-6/MakersBnB/makersbnb/spec/space_spec.rb": {
         "lines": [
           1,
           null,
@@ -100,6 +89,5 @@
         ]
       }
     },
-    "timestamp": 1597143327
   }
 }
