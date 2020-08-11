@@ -1,7 +1,6 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/matteomicozzi/Projects/makers/week6/makersbnb/spec/database_connection_spec.rb": {
         "lines": [
           1,
           1,
@@ -11,38 +10,18 @@
           null,
           1,
           1,
-          0,
-          0,
           null,
           null
         ]
       },
-      "/Users/matteomicozzi/Projects/makers/week6/makersbnb/lib/database_connection.rb": {
         "lines": [
           1,
           1,
           1,
-          2,
-          null,
-          1,
-          0,
           null,
           null
         ]
       },
-      "/Users/matteomicozzi/Projects/makers/week6/makersbnb/spec/features/adding_spaces_spec.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          0,
-          0,
-          null,
-          null
-        ]
-      },
-      "/Users/matteomicozzi/Projects/makers/week6/makersbnb/spec/features/landing_page_spec.rb": {
         "lines": [
           1,
           1,
@@ -52,17 +31,63 @@
           null
         ]
       },
-      "/Users/matteomicozzi/Projects/makers/week6/makersbnb/spec/features/spaces_page_spec.rb": {
         "lines": [
           1,
           1,
           1,
           1,
+          null,
+          null
+        ]
+      },
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/student/Desktop/environment/Projects/week-6/MakersBnB/makersbnb/lib/space.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          9,
+          9,
+          null,
+          null,
+          1,
+          4,
+          12,
+          null,
           null,
           null
         ]
       }
     },
-    "timestamp": 1597143899
   }
 }
