@@ -69,17 +69,20 @@ As a User
 So I can control when a space is available or not
 I want to be able to change availability depending on date
 ```
+#### diagram
+Is in images folder
+<img src="images/mvcdiagram.png">
 
 #### Setup Database
 Connect to postgres, then create database:
-```` 
+````
 psql postgres;
 CREATE DATABASE makersbnb;
 ````
 connect to database using command ````\c makersbnb;```
 ````
 For test database: connect to postgres, then create database:
-```` 
+````
 psql postgres;
 CREATE DATABASE makersbnb_test;
 
@@ -123,7 +126,7 @@ Float - Ryan
 #### Plan for Day 2 Afternoon Work
 
 
-**Ilja & Matteo**
+**Ilja Gonciarov & Matteo Micozzi**
 - [] diagram route for web app (adhering to RESTful design principles)
 - [] create (add) Space page
 
@@ -131,5 +134,3 @@ Float - Ryan
 - [] Space class
  - [] .all
  - [] .create
-
- 
