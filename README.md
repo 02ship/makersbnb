@@ -90,6 +90,10 @@ Connect to database using command ````\c makersbnb_test;````
 
 Run all the queries detailed in the migrations directory.
 
+````
+Users table:
+connect to database using command ````\c makersbnb;````
+create table Users using command from 04_create_users_table.sql
 
 ### Initial Planning
 
