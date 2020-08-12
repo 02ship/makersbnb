@@ -9,5 +9,12 @@ describe User do
       expect(user.name).to eq('Ilja')
       expect(user.password).to eq('123456')
     end
+    it 'encrypts the password with bcrypt' do
+      allow(BCrypt::Password).to receive(:create)
+      allow(BCrypt::Password).to receive(:new)
+      User.create(email: 'test@test.com', name: 'Test_user', password: 'test_password')
+      expect(BCrypt::Password).to have_received(:create).with('test_password')
+      expect(BCrypt::Password).to have_received(:new)
+    end
   end
 end
