@@ -47,8 +47,8 @@ Float - Ryan
 #### Plan for Day 3 Work
 
 **Features to be added**
-- Sign up
-- Availability
+- [x] Sign up
+- [] Availability
 
 **Matteo, Ryan**
 - [X] Sign up page
@@ -56,7 +56,7 @@ Float - Ryan
 
 **Dillon, Ilja**
 - [X] User tables in databases
-    - name:, email:, password:
+  [x] name:, email:, password:
 - [X] Add Users to model
     -[X] .create method
 
@@ -65,11 +65,11 @@ Float - Ryan
 #### Day 3 Afternoon
 
 **Ryan and Dillon Frontend**
-- [] Integrate to controller
-- [] Login page
+- [x] Integrate to controller
+- [x] Login page
 
 **Paul and Matteo Backend**
-- [] Password encryption
+- [x] Password encryption
 
 **Ilja float**
 
@@ -77,3 +77,8 @@ Float - Ryan
 - [] Database availability
 - [] Model availability
 - [] Display availability
+
+#### Day 4 Morning
+- .find and .authentificate
+- integrate .find and .authentificate in the controller
+- availability
