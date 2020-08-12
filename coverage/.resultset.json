@@ -1,7 +1,6 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/matteomicozzi/Projects/makers/week6/makersbnb/spec/features/sign_up_spec.rb": {
         "lines": [
           1,
           1,
@@ -14,8 +13,44 @@
           null,
           null
         ]
+      },
+      "/Users/ilja/Projects/makersbnb/spec/user_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/ilja/Projects/makersbnb/lib/user.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1597229909
   }
 }
