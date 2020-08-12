@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/student/Projects/makersbnb/spec/database_connection_spec.rb": {
+      "/Users/ilja/Projects/makersbnb/spec/database_connection_spec.rb": {
         "lines": [
           1,
           1,
@@ -17,7 +17,7 @@
           null
         ]
       },
-      "/Users/student/Projects/makersbnb/spec/features/adding_spaces_spec.rb": {
+      "/Users/ilja/Projects/makersbnb/spec/features/adding_spaces_spec.rb": {
         "lines": [
           1,
           1,
@@ -33,7 +33,7 @@
           null
         ]
       },
-      "/Users/student/Projects/makersbnb/spec/features/landing_page_spec.rb": {
+      "/Users/ilja/Projects/makersbnb/spec/features/landing_page_spec.rb": {
         "lines": [
           1,
           1,
@@ -43,7 +43,7 @@
           null
         ]
       },
-      "/Users/student/Projects/makersbnb/spec/features/spaces_page_spec.rb": {
+      "/Users/ilja/Projects/makersbnb/spec/features/spaces_page_spec.rb": {
         "lines": [
           1,
           1,
@@ -53,7 +53,7 @@
           null
         ]
       },
-      "/Users/student/Projects/makersbnb/spec/space_spec.rb": {
+      "/Users/ilja/Projects/makersbnb/spec/space_spec.rb": {
         "lines": [
           1,
           null,
@@ -95,11 +95,48 @@
           1,
           1,
           null,
+          null,
+          null
+        ]
+      },
+      "/Users/ilja/Projects/makersbnb/spec/user_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/ilja/Projects/makersbnb/lib/user.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
           null,
           null
         ]
       }
     },
-    "timestamp": 1597161867
+    "timestamp": 1597229866
   }
 }
