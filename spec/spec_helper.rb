@@ -3,6 +3,7 @@ require 'simplecov'
 require 'simplecov-console'
 require_relative '../app'
 require_relative './setup_test_database'
+require_relative './web_helper.rb'
 
 ENV['ENVIRONMENT'] = 'test'
 
