@@ -19,12 +19,12 @@ class App < Sinatra::Base
     redirect ('/spaces')
   end
 
-  get '/spaces/add' do
-    erb :'spaces/add'
+  get '/spaces/new' do
+    erb :'spaces/new'
   end
 
-  get '/users/add' do
-    erb :'/users/add'
+  get '/users/new' do
+    erb :'/users/new'
   end
 
   post '/users' do
@@ -35,6 +35,20 @@ class App < Sinatra::Base
   get '/users' do
     erb :'/users/index'
   end
+
+  get '/sessions/new' do
+    erb :'sessions/new'
+  end
+
+  post '/sessions' do
+    # set up sessions here (.find, .authenticate user method)
+    redirect('/sessions')
+  end
+
+  get '/sessions' do
+    erb :'sessions/index'
+  end
+
 
   run! if app_file==$0
 
