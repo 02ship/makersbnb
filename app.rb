@@ -1,6 +1,7 @@
 require 'sinatra/base'
 require './lib/space.rb'
 require_relative 'environment_selection.rb'
+require './lib/user.rb'
 
 class App < Sinatra::Base
 
@@ -10,7 +11,7 @@ class App < Sinatra::Base
 
   get '/spaces' do
     @spaces = Space.all
-    erb :spaces
+    erb :'/spaces/index'
   end
 
   post '/spaces' do
@@ -26,11 +27,12 @@ class App < Sinatra::Base
     erb :'/users/add'
   end
 
-  post '/users/index' do
-    redirect ('/users/index')
+  post '/users' do
+    User.create(name: params[:name], email: params[:email], password: params[:password])
+    redirect ('/users')
   end
 
-  get '/users/index' do
+  get '/users' do
     erb :'/users/index'
   end
 
