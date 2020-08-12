@@ -38,8 +38,31 @@ Float - Ryan
 **Extra Goal for Day 2**
 - Adding description and price parameters:
   Backend:
-  - [] Update model/database with new parameters as keywords (description:, price:)
-  - [] Update db/migrations
+  - [X] Update model/database with new parameters as keywords (description:, price:)
+  - [X] Update db/migrations
   Frontend:
-  - [] Update views, (the forms) to allow for two new params
-  - [] Update controller
+  - [X] Update views, (the forms) to allow for two new params
+  - [X] Update controller
+
+#### Plan for Day 3 Work
+
+**Features to be added**
+- Sign up
+- Availability
+
+**Matteo, Ryan**
+- [] Sign up page
+- [] Integrate to controller
+- [] Display users on spaces page
+
+**Dillon, Ilja**
+- [] User tables in databases
+    - name:, email:, password:
+- [] Add Users to model
+
+**Magic man/Float - Paul**
+
+**Additional Goals identified**
+- [] Database availability
+- [] Model availability
+- [] Display availability
