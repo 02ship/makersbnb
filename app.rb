@@ -22,6 +22,18 @@ class App < Sinatra::Base
     erb :'spaces/add'
   end
 
+  get '/users/add' do
+    erb :'/users/add'
+  end
+
+  post '/users/index' do
+    redirect ('/users/index')
+  end
+
+  get '/users/index' do
+    erb :'/users/index'
+  end
+
   run! if app_file==$0
 
 end

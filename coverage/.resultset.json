@@ -1,23 +1,6 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/ilja/Projects/makersbnb/spec/database_connection_spec.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/ilja/Projects/makersbnb/spec/features/adding_spaces_spec.rb": {
         "lines": [
           1,
           1,
@@ -27,74 +10,6 @@
           1,
           1,
           1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/ilja/Projects/makersbnb/spec/features/landing_page_spec.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/ilja/Projects/makersbnb/spec/features/spaces_page_spec.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/ilja/Projects/makersbnb/spec/space_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
           null,
           null
         ]
@@ -137,6 +52,5 @@
         ]
       }
     },
-    "timestamp": 1597229866
   }
 }
