@@ -17,4 +17,13 @@ describe User do
       expect(BCrypt::Password).to have_received(:new)
     end
   end
+  describe '.find' do
+    it 'finds a user based on id' do
+      user = User.create(email: 'user@user.com', name: 'Ilja', password: '123456')
+      result = User.find(id: user.id)
+      expect(result.id).to eq(user.id)
+      expect(result.email).to eq(user.email)
+      expect(result.name).to eq(user.name)
+    end
+  end
 end
