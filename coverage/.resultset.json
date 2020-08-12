@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/student/Projects/makersbnb/spec/database_connection_spec.rb": {
+      "/Users/matteomicozzi/Projects/makers/week6/makersbnb/spec/database_connection_spec.rb": {
         "lines": [
           1,
           1,
@@ -17,7 +17,7 @@
           null
         ]
       },
-      "/Users/student/Projects/makersbnb/spec/features/adding_spaces_spec.rb": {
+      "/Users/matteomicozzi/Projects/makers/week6/makersbnb/spec/features/adding_spaces_spec.rb": {
         "lines": [
           1,
           1,
@@ -33,7 +33,7 @@
           null
         ]
       },
-      "/Users/student/Projects/makersbnb/spec/features/landing_page_spec.rb": {
+      "/Users/matteomicozzi/Projects/makers/week6/makersbnb/spec/features/landing_page_spec.rb": {
         "lines": [
           1,
           1,
@@ -43,8 +43,12 @@
           null
         ]
       },
-      "/Users/student/Projects/makersbnb/spec/features/spaces_page_spec.rb": {
+      "/Users/matteomicozzi/Projects/makers/week6/makersbnb/spec/features/spaces_page_spec.rb": {
         "lines": [
+          1,
+          1,
+          1,
+          1,
           1,
           1,
           1,
@@ -53,7 +57,7 @@
           null
         ]
       },
-      "/Users/student/Projects/makersbnb/spec/space_spec.rb": {
+      "/Users/matteomicozzi/Projects/makers/week6/makersbnb/spec/space_spec.rb": {
         "lines": [
           1,
           null,
@@ -100,6 +104,6 @@
         ]
       }
     },
-    "timestamp": 1597161867
+    "timestamp": 1597228054
   }
 }
