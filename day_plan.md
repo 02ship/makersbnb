@@ -51,16 +51,27 @@ Float - Ryan
 - Availability
 
 **Matteo, Ryan**
-- [] Sign up page
-- [] Integrate to controller
-- [] Display users on spaces page
+- [X] Sign up page
+
 
 **Dillon, Ilja**
-- [] User tables in databases
+- [X] User tables in databases
     - name:, email:, password:
-- [] Add Users to model
+- [X] Add Users to model
+    -[X] .create method
 
 **Magic man/Float - Paul**
+
+#### Day 3 Afternoon
+
+**Ryan and Dillon Frontend**
+- [] Integrate to controller
+- [] Login page
+
+**Paul and Matteo Backend**
+- [] Password encryption
+
+**Ilja float**
 
 **Additional Goals identified**
 - [] Database availability
