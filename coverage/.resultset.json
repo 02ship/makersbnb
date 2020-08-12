@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/student/Projects/makersbnb/spec/database_connection_spec.rb": {
+      "/Users/student/Documents/base/Course/week-6/project/makersbnb/spec/database_connection_spec.rb": {
         "lines": [
           1,
           1,
@@ -17,7 +17,7 @@
           null
         ]
       },
-      "/Users/student/Projects/makersbnb/spec/features/adding_spaces_spec.rb": {
+      "/Users/student/Documents/base/Course/week-6/project/makersbnb/spec/features/adding_spaces_spec.rb": {
         "lines": [
           1,
           1,
@@ -33,7 +33,7 @@
           null
         ]
       },
-      "/Users/student/Projects/makersbnb/spec/features/landing_page_spec.rb": {
+      "/Users/student/Documents/base/Course/week-6/project/makersbnb/spec/features/landing_page_spec.rb": {
         "lines": [
           1,
           1,
@@ -43,21 +43,8 @@
           null
         ]
       },
-      "/Users/student/Projects/makersbnb/spec/features/sign_up_spec.rb": {
+      "/Users/student/Documents/base/Course/week-6/project/makersbnb/spec/features/login_page_spec.rb": {
         "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/student/Projects/makersbnb/spec/features/spaces_page_spec.rb": {
-        "lines": [
-          1,
           1,
           1,
           1,
@@ -69,7 +56,33 @@
           null
         ]
       },
-      "/Users/student/Projects/makersbnb/spec/space_spec.rb": {
+      "/Users/student/Documents/base/Course/week-6/project/makersbnb/spec/features/sign_up_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/student/Documents/base/Course/week-6/project/makersbnb/spec/features/spaces_page_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/student/Documents/base/Course/week-6/project/makersbnb/spec/space_spec.rb": {
         "lines": [
           1,
           null,
@@ -115,7 +128,7 @@
           null
         ]
       },
-      "/Users/student/Projects/makersbnb/spec/user_spec.rb": {
+      "/Users/student/Documents/base/Course/week-6/project/makersbnb/spec/user_spec.rb": {
         "lines": [
           1,
           null,
@@ -133,6 +146,6 @@
         ]
       }
     },
-    "timestamp": 1597244409
+    "timestamp": 1597246280
   }
 }

@@ -1,5 +1,5 @@
 def add_user
-  visit('/users/add')
+  visit('/users/new')
     fill_in :name, with: 'Ryan'
     fill_in :email, with: 'ryan@makers.com'
     fill_in :password, with: '123456'

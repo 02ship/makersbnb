@@ -1,6 +1,6 @@
 feature 'in add spaces page' do
   scenario 'add space' do
-    visit('/spaces/add')
+    visit('/spaces/new')
     fill_in :name, with: 'Room_1'
     fill_in :description, with: 'Description_1'
     fill_in :price, with: 50
