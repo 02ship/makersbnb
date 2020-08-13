@@ -1,0 +1,24 @@
+<style> * {font: 20px Verdana}
+  h1 {color: gray;
+  font-size: 36px;}
+  form{color: black;
+  border: 3px solid black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;}
+  body{
+  padding-top: 150px;
+  padding-bottom: 150px;
+  padding-left: 500px;
+  padding-right: 500px;}
+  input[type="submit"] {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
