@@ -62,6 +62,12 @@ class App < Sinatra::Base
     erb :'sessions/index'
   end
 
+  post '/sessions/destroy' do
+    sessions.clear
+    flash[:notice] = 'You have signed out'
+    redirect ('/index')
+  end
+
 
   run! if app_file==$0
 
