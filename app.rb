@@ -4,6 +4,7 @@ require_relative 'environment_selection.rb'
 require './lib/user.rb'
 
 class App < Sinatra::Base
+  enable :sessions
 
   get '/' do
     erb :index
@@ -28,11 +29,13 @@ class App < Sinatra::Base
   end
 
   post '/users' do
-    User.create(name: params[:name], email: params[:email], password: params[:password])
+    user = User.create(name: params[:name], email: params[:email], password: params[:password])
+    session[:user_id] = user.id
     redirect ('/users')
   end
 
   get '/users' do
+    @user = User.find(id: session[:user_id])
     erb :'/users/index'
   end
 
