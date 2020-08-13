@@ -1,15 +1,42 @@
 <html>
+<head>
+<style> * {font: 20px Verdana}
+  h1 {font-size: 36px;}
+  form{color: black;
+  border: 3px solid black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;}
+  body{
+  padding-top: 150px;
+  padding-bottom: 150px;
+  padding-left: 500px;
+  padding-right: 500px;}
+  input[type="submit"] {
+  border: 2px solid black;
+  background-color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+</style>
+</head>
+<center>
 <body>
 
 <h1>Sign up:</h1>
   <form action="/users" method="post" id="id">
-    Name:
-    <input type="text" name="name">
-    Email:
-    <input type="text" name="email">
-    Password:
-    <input type="text" name="password">
+    <label for="name">Name</label><br>
+    <input type="text" id="name" name="name"><br>
+    <label for="email">Email</label><br>
+    <input type="text" id="email" name="email"><br>
+    <label for="password">Password</label><br>
+    <input type="text" id="password" name="password"><br>
+    <br>
     <input type="submit" value="Sign up" />
   </form>
 </body>
+</center>
 </html>

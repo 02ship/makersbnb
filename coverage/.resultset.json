@@ -1,7 +1,6 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/ilja/Projects/makersbnb/spec/database_connection_spec.rb": {
         "lines": [
           1,
           1,
@@ -17,7 +16,6 @@
           null
         ]
       },
-      "/Users/ilja/Projects/makersbnb/spec/features/adding_spaces_spec.rb": {
         "lines": [
           1,
           1,
@@ -33,7 +31,6 @@
           null
         ]
       },
-      "/Users/ilja/Projects/makersbnb/spec/features/landing_page_spec.rb": {
         "lines": [
           1,
           1,
@@ -43,7 +40,6 @@
           null
         ]
       },
-      "/Users/ilja/Projects/makersbnb/spec/features/login_page_spec.rb": {
         "lines": [
           1,
           1,
@@ -68,7 +64,6 @@
           null
         ]
       },
-      "/Users/ilja/Projects/makersbnb/spec/features/sign_up_spec.rb": {
         "lines": [
           1,
           1,
@@ -80,7 +75,6 @@
           null
         ]
       },
-      "/Users/ilja/Projects/makersbnb/spec/features/spaces_page_spec.rb": {
         "lines": [
           1,
           1,
@@ -94,7 +88,6 @@
           null
         ]
       },
-      "/Users/ilja/Projects/makersbnb/spec/space_spec.rb": {
         "lines": [
           1,
           null,
@@ -140,7 +133,6 @@
           null
         ]
       },
-      "/Users/ilja/Projects/makersbnb/spec/user_spec.rb": {
         "lines": [
           1,
           null,
@@ -187,6 +179,5 @@
         ]
       }
     },
-    "timestamp": 1597315384
   }
 }
