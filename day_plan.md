@@ -81,16 +81,25 @@ Float - Ryan
 #### Day 4 Morning
 
 **Ryan and Ilja Backend**
-- finish with .find in Model
-- .authenticate in Model (check if email/password match)
-- integrate .find and .authenticate in the Controller
+- [x] finish with .find in Model
+- [x] .authenticate in Model (check if email/password match)
+- [x] integrate .find and .authenticate in the Controller
 
 **Paul and Dillon Frontend**
-- Beautify
+- [x] Beautify - ONGOING
 
 **Matteo float**
 
 #### Day 4 Afternoon
+**Dillon & Ilja**
+- navigation bar/linkage of webpages to one another (using mockups)
+
+**Paul & Matteo**
+- sign out
+- users and spaces linked (foreign keys)
+
+**Float: Ryan**
 
 **Future Goals**
+- beautifying 
 - availability
