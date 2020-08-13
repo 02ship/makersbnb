@@ -59,6 +59,7 @@ class App < Sinatra::Base
   end
 
   get '/sessions' do
+    @user = User.find(id: session[:user_id])
     erb :'sessions/index'
   end
 
