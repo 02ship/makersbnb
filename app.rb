@@ -1,10 +1,13 @@
 require 'sinatra/base'
+require 'sinatra/flash'
 require './lib/space.rb'
 require_relative 'environment_selection.rb'
 require './lib/user.rb'
+require 'uri'
 
 class App < Sinatra::Base
   enable :sessions
+  register Sinatra::Flash
 
   get '/' do
     erb :index
@@ -44,8 +47,15 @@ class App < Sinatra::Base
   end
 
   post '/sessions' do
-    # set up sessions here (.find, .authenticate user method)
-    redirect('/sessions')
+    user = User.authenticate(email: params[:email], password: params[:password])
+
+    if user
+      session[:user_id] = user.id
+      redirect ('/sessions')
+    else
+      flash[:notice] = 'Please check your email or password'
+      redirect ('/sessions/new')
+    end
   end
 
   get '/sessions' do
