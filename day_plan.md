@@ -79,6 +79,18 @@ Float - Ryan
 - [] Display availability
 
 #### Day 4 Morning
-- .find and .authentificate
-- integrate .find and .authentificate in the controller
+
+**Ryan and Ilja Backend**
+- finish with .find in Model
+- .authenticate in Model (check if email/password match)
+- integrate .find and .authenticate in the Controller
+
+**Paul and Dillon Frontend**
+- Beautify
+
+**Matteo float**
+
+#### Day 4 Afternoon
+
+**Future Goals**
 - availability
