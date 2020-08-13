@@ -7,4 +7,5 @@ feature 'The login page' do
     click_button 'Login'
     expect(page).to have_content('Hello, Ryan!')
   end
+
 end
