@@ -12,6 +12,7 @@ group :test do
   gem "capybara"
   gem "rspec"
   gem "sinatra"
+  gem 'sinatra-flash'
   gem "simplecov"
   gem "simplecov-console"
 
