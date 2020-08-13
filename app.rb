@@ -19,7 +19,7 @@ class App < Sinatra::Base
   end
 
   post '/spaces' do
-    Space.create(name: params[:name], description: params[:description], price: params[:price])
+    Space.create(name: params[:name], description: params[:description], price: params[:price], userid: session[:user_id])
     redirect ('/spaces')
   end
 
@@ -63,9 +63,9 @@ class App < Sinatra::Base
   end
 
   post '/sessions/destroy' do
-    sessions.clear
+    session.clear
     flash[:notice] = 'You have signed out'
-    redirect ('/index')
+    redirect ('/')
   end
 
 

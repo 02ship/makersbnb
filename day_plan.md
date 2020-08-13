@@ -92,14 +92,38 @@ Float - Ryan
 
 #### Day 4 Afternoon
 **Dillon & Ilja**
-- navigation bar/linkage of webpages to one another (using mockups)
+- [x] navigation bar
+- linkage of webpages to one another (using mockups)
 
 **Paul & Matteo**
-- sign out
-- users and spaces linked (foreign keys)
+- [x] sign out
+- [x] users and spaces linked (foreign keys)
 
 **Float: Ryan**
 
 **Future Goals**
 - beautifying 
 - availability
+
+#### To Do Before Deployment
+
+**Paul & Matteo**
+- linkage of webpages (with  a view to demo it)
+
+**Dillon, Ilja & Ryan**
+- availbility
+
+
+**DAY 5 Morning**
+
+DIllon Float
+
+Samne teams as day 4 evening
+
+12:30 on day 5
+no more adding features
+solely focussed on demo/debugging
+finishing touches
+
+
+
