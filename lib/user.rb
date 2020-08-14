@@ -29,6 +29,14 @@ class User
 
   def spaces
     spaces = DatabaseConnection.query("SELECT * FROM spaces WHERE userid = '#{@id}';")
-    spaces.map {|space| Space.new(id: space['id'].to_i, name: space['name'], description: space['description'], price: space['price'], userid: space['userid'])}
+    spaces.map {|space| Space.new(
+      id: space['id'].to_i, 
+      name: space['name'], 
+      description: space['description'], 
+      price: space['price'], 
+      userid: space['userid'],
+      start_date: space['start_date'],
+      end_date: space['end_date'] 
+      )}
   end
 end

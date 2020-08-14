@@ -19,7 +19,14 @@ class App < Sinatra::Base
   end
 
   post '/spaces' do
-    Space.create(name: params[:name], description: params[:description], price: params[:price], userid: session[:user_id])
+    Space.create(
+      name: params[:name], 
+      description: params[:description], 
+      price: params[:price], 
+      userid: session[:user_id],
+      start_date: params[:start_date],
+      end_date: params[:end_date]
+    )
     redirect ('/spaces')
   end
 

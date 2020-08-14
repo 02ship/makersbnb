@@ -40,9 +40,9 @@ describe User do
     end
   end
   describe '#spaces' do
-    it 'shows user saces' do
+    it 'shows user spaces' do
       user = User.create(email: 'user@user.com', name: 'Ilja', password: '123456')
-      DatabaseConnection.query("INSERT INTO spaces (id, name, description, price, userid) VALUES(1, 'Room_1', 'Description', '50', #{user.id});")
+      DatabaseConnection.query("INSERT INTO spaces (id, name, description, price, userid, start_date, end_date) VALUES(1, 'Room_1', 'Description', '50', #{user.id}, '2020-01-01', '2020-01-10');")
       space = user.spaces.first
       expect(space.userid).to eq(user.id)
     end
