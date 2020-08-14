@@ -1,0 +1,1 @@
+CREATE TABLE spaces_dates(space_id INTEGER REFERENCES spaces (id), date_id INTEGER REFERENCES dates (id));
