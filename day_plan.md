@@ -116,10 +116,6 @@ Float - Ryan
 
 **DAY 5 Morning**
 
-**Dillon Float**
-
-Same teams as day 4 evening
-
 **Matteo and Paul**
 - [] logout button on navbar
 - [] hang right navbar
@@ -132,7 +128,10 @@ Same teams as day 4 evening
 - [] multi-date listing
 - [] single-date booking
 
-12:30 on day 5
-no more adding features
-solely focussed on demo/debugging
-finishing touches
+**Dillon Float**
+
+- Plan for demo preparations
+  - 12:30 on day 5
+  - no more adding features
+  - solely focussed on demo/debugging
+  - finishing touches
