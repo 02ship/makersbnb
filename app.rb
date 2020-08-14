@@ -69,6 +69,10 @@ class App < Sinatra::Base
     redirect ('/sessions/new')
   end
 
+  get '/sessions/destroy' do
+    erb :'sessions/destroy'
+  end
+
 
   run! if app_file==$0
 
