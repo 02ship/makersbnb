@@ -20,13 +20,15 @@ class App < Sinatra::Base
 
   post '/spaces' do
     Space.create(
-      name: params[:name], 
-      description: params[:description], 
-      price: params[:price], 
+      name: params[:name],
+      description: params[:description],
+      price: params[:price],
       userid: session[:user_id],
       start_date: params[:start_date],
       end_date: params[:end_date]
     )
+    p params[:start_date]
+    p params[:end_date]
     redirect ('/spaces')
   end
 
@@ -40,8 +42,8 @@ class App < Sinatra::Base
 
   post '/users' do
     user = User.create(
-      name: params[:name], 
-      email: params[:email], 
+      name: params[:name],
+      email: params[:email],
       password: params[:password]
     )
     session[:user_id] = user.id
@@ -85,6 +87,7 @@ class App < Sinatra::Base
   end
 
   get '/spaces/:id' do
+    @space = Space.find(id: params[:id])
     erb :'spaces/:id'
   end
 

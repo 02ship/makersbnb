@@ -4,12 +4,12 @@ describe Space do
 
   describe "#initialize" do
     space = Space.new(
-      id: 1, 
-      name: "a space", 
-      description: 'a nice place to stay', 
-      price: 1, 
-      userid: 1, 
-      start_date: '2020-01-01', 
+      id: 1,
+      name: "a space",
+      description: 'a nice place to stay',
+      price: 1,
+      userid: 1,
+      start_date: '2020-01-01',
       end_date: '2020-01-10'
     )
     it "has a name" do
@@ -41,10 +41,10 @@ describe Space do
     it "pulls from the database to create a new Space" do
       user = User.create(email: 'user@user.com', name: 'Ilja', password: '123456')
       space = Space.create(
-        name: 'another space', 
-        description: 'another nice place to stay', 
-        price: 1, userid: user.id, 
-        start_date: '2020-01-01', 
+        name: 'another space',
+        description: 'another nice place to stay',
+        price: 1, userid: user.id,
+        start_date: '2020-01-01',
         end_date: '2020-01-10'
       )
       result = Space.all
@@ -52,6 +52,23 @@ describe Space do
       expect(space.name).to eq(result.first.name)
       expect(space.description).to eq(result.first.description)
       expect(space.price).to eq(result.first.price)
+    end
+  end
+  describe '.find' do
+    it 'finds a space based on id' do
+      user = User.create(email: 'user@user.com', name: 'Ilja', password: '123456')
+      space = Space.create(
+        name: 'another space',
+        description: 'another nice place to stay',
+        price: 1, userid: user.id,
+        start_date: '2020-01-01',
+        end_date: '2020-01-10'
+      )
+      result = Space.find(id: space.id)
+      expect(space.id).to eq(result.id)
+      expect(space.name).to eq(result.name)
+      expect(space.description).to eq(result.description)
+      expect(space.price).to eq(result.price)
     end
   end
 end
