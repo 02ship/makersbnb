@@ -12,4 +12,8 @@ class Date
     Date.new(id: result[0]['id'], date: result[0]['date'])
   end
 
+  def self.available_dates(query)
+    DatabaseConnection.query(query)
+  end
+
 end
