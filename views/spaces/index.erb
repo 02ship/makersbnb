@@ -37,7 +37,7 @@ body {
   margin: 0;
 }
 form {
-  width: 25%;
+  width: 80%;
   margin: auto;
   text-align: center;
   color: black;
@@ -97,12 +97,14 @@ form {
 <ul>
     <% @spaces.each do |space| %>
 
+        <form action="/spaces/<%= space.id %>" method="get">
         <p>
         <%= space.name %>
         <br>
-        <%= space.description %>
-
+        <%= space.description %><br><br>
+        <input type="submit" value="View space">
         </p>
+        </form>
 
     <% end %>
     </ul>

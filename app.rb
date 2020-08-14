@@ -73,6 +73,9 @@ class App < Sinatra::Base
     erb :'sessions/destroy'
   end
 
+  get '/spaces/:id' do
+    erb :'spaces/:id'
+  end
 
   run! if app_file==$0
 
