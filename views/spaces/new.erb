@@ -4,7 +4,7 @@
   <style>
   * {font: 20px Verdana}
   h1 {
-    margin-top: 15%;
+    margin-top: 5%;
     text-align: center;
     color: black;
     font-size: 36px;
@@ -65,13 +65,13 @@
 </header>
 
 <body>
-<h1>List your space at MakersBnB</h1>
+<h1>List a Space</h1>
   <form action="/spaces" method="post" id="id">
     <label for="name">Name</label><br>
     <input type="text" id="name" name="name"><br><br>
     <label for="description">Description</label><br>
     <textarea type="text" id="description" name="description" rows="5" cols="20" maxlength="500"></textarea><br><br>
-    <label for="price">Price (£)</label>
+    <label for="price">Price <br> £</label>
     <input type="number" step="5" min="0" id="price" name="price"><br><br>
     <input type="submit" value="Add" />
   </form>
