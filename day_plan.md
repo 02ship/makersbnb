@@ -102,7 +102,7 @@ Float - Ryan
 **Float: Ryan**
 
 **Future Goals**
-- beautifying 
+- beautifying
 - availability
 
 #### To Do Before Deployment
@@ -116,14 +116,23 @@ Float - Ryan
 
 **DAY 5 Morning**
 
-DIllon Float
+**Dillon Float**
 
-Samne teams as day 4 evening
+Same teams as day 4 evening
+
+**Matteo and Paul**
+- [] logout button on navbar
+- [] hang right navbar
+- [] password input type
+- [] date on listing
+- [] links to individual space pages
+- [] calendar-type date input
+
+**Ryan and Ilja**
+- [] multi-date listing
+- [] single-date booking
 
 12:30 on day 5
 no more adding features
 solely focussed on demo/debugging
 finishing touches
-
-
-
