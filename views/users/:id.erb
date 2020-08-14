@@ -78,18 +78,8 @@
 <body>
 
 <p>
-<%= @space.name %>
+Please message <%= @user.name %> at <%= @user.email %>
 <br>
-<%= @space.description %><br>
-£<%= @space.price %> per night<br>
-</p>
-<form action="/users/:id" method="get">
-  <label for="start">Date:</label>
-  <input type="date" id="start" name="trip-start"  value="<%= @space.start_date %>"  min="<%= @space.start_date %>" max="<%= @space.end_date %>">
-  <br>
-  <br>
-  <input type="submit" value="Request to Book">
-</form>
-</body>
 
+</p>
 </html>

@@ -87,6 +87,8 @@ form {
   </div>
 </header>
 
+<h1> <%= flash[:notice] %> </h1>
+
 <h1> Book a Space </h1>
 
 <form action="spaces/new" method="get">
@@ -100,8 +102,10 @@ form {
         <form action="/spaces/<%= space.id %>" method="get">
         <p>
         <%= space.name %>
-        <br>
+        <br><br>
         <%= space.description %><br><br>
+        Available from: <%= space.start_date %><br>
+        Available to: <%= space.end_date %><br><br>
         <input type="submit" value="View space">
         </p>
         </form>

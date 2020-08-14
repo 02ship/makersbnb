@@ -117,15 +117,15 @@ Float - Ryan
 **DAY 5 Morning**
 
 **Matteo and Paul**
-- [] logout button on navbar
+- [X] logout button on navbar
 - [] hang right navbar
-- [] password input type
-- [] date on listing
-- [] links to individual space pages
-- [] calendar-type date input
+- [X] password input type
+- [X] date on listing
+- [X] links to individual space pages
+- [X] calendar-type date input
 
 **Ryan and Ilja**
-- [] multi-date listing
+- [X] multi-date listing
 - [] single-date booking
 
 **Dillon Float**
@@ -135,3 +135,15 @@ Float - Ryan
   - no more adding features
   - solely focussed on demo/debugging
   - finishing touches
+
+
+home
+Sign up
+list a new space
+logout
+login
+book
+
+Space out titles - descriptions
+Different sized fonts
+Add confirmation text to log out screen

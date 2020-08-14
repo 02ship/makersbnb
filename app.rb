@@ -27,8 +27,6 @@ class App < Sinatra::Base
       start_date: params[:start_date],
       end_date: params[:end_date]
     )
-    p params[:start_date]
-    p params[:end_date]
     redirect ('/spaces')
   end
 
@@ -78,7 +76,7 @@ class App < Sinatra::Base
 
   post '/sessions/destroy' do
     session.clear
-    flash[:notice] = 'You have signed out'
+    flash[:notice] = 'You have logged out'
     redirect ('/sessions/new')
   end
 
@@ -89,6 +87,11 @@ class App < Sinatra::Base
   get '/spaces/:id' do
     @space = Space.find(id: params[:id])
     erb :'spaces/:id'
+  end
+
+  get '/users/:id' do
+    flash[:notice] = 'Congratulations! You have booked your trip'
+    redirect ('/spaces')
   end
 
   run! if app_file==$0

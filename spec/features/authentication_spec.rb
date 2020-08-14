@@ -35,6 +35,6 @@ feature 'A User can sign out' do
     fill_in :password, with: '123456'
     click_button 'Login'
     click_button 'Logout'
-    expect(page).to have_content('You have signed out')
+    expect(page).to have_content('You have logged out')
   end
 end
