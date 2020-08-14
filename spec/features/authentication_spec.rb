@@ -5,7 +5,7 @@ feature 'The login page' do
     fill_in :email, with: 'ryan@makers.com'
     fill_in :password, with: '123456'
     click_button 'Login'
-    expect(page).to have_content('Hello, Ryan!')
+    expect(page).to have_content('Welcome Ryan!')
   end
 
   scenario 'registered user inputs wrong' do

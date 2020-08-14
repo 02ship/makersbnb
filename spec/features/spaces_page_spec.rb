@@ -5,6 +5,5 @@ feature 'Spaces page' do
     expect(page).to have_content('Spaces:')
     expect(page).to have_content('Room_1')
     expect(page).to have_content('Description_1')
-    expect(page).to have_content('50')
   end
 end

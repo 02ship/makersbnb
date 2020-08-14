@@ -66,7 +66,7 @@ class App < Sinatra::Base
   post '/sessions/destroy' do
     session.clear
     flash[:notice] = 'You have signed out'
-    redirect ('/')
+    redirect ('/sessions/new')
   end
 
 
