@@ -22,13 +22,13 @@ Create a web application named MakersBnB that allows users to list and hire avai
 
 ### Headline specifications
 
-- [] Any signed-up user can list a new space.
-- [] Users can list multiple spaces.
-- [x] Users should be able to name their space, provide a short description of the space, and a price per night.
-- [] Users should be able to offer a range of dates where their space is available.
-- [] Any signed-up user can request to hire any space for one night, and this should be approved by the user that owns that space.
-- [] Nights for which a space has already been booked should not be available for users to book that space.
-- [] Until a user has confirmed a booking request, that space can still be booked for that night.
+- Any signed-up user can list a new space.
+- Users can list multiple spaces.
+- Users should be able to name their space, provide a short description of the space, and a price per night.
+- Users should be able to offer a range of dates where their space is available.
+- Any signed-up user can request to hire any space for one night, and this should be approved by the user that owns that space.
+- Nights for which a space has already been booked should not be available for users to book that space.
+- Until a user has confirmed a booking request, that space can still be booked for that night.
 
 ### User Stories
 
@@ -73,32 +73,57 @@ I want to be able to change availability depending on date
 
 <img src="images/mvcdiagram.png">
 
-#### Setup Database
+#### Setup Databases
 Connect to postgres, then create database:
-````
+
+```
 psql postgres;
 CREATE DATABASE makersbnb;
-````
-connect to database using command ````\c makersbnb;```
-````
+```
+
+connect to database using command:
+```
+\c makersbnb;
+```
+
 For test database: connect to postgres, then create database:
-````
+
+```
 psql postgres;
 CREATE DATABASE makersbnb_test;
+```
 
-Connect to database using command ````\c makersbnb_test;````
+Connect to database using command:
 
-Run all the queries detailed in the migrations directory.
+```
+\c makersbnb_test;
+```
 
-````
-Users table:
-connect to database using command ````\c makersbnb;````
-create table Users using command from 04_create_users_table.sql
+Spaces and Users table:
+
+connect to database using command:
+```
+\c makersbnb;
+```
+
+Follow steps in migrations for building each table:
+Spaces:
+1. db/migrations/01_create_spaces_table.sql -> to create spaces table
+2. db/migrations/02_add_descriptions_column.sql -> to add a description column to spaces
+3. db/migrations/03_add_price_column.sql -> to add a price column to spaces
+4. db/migrations/07_add_userid_column.sql -> to add a foreign key (user_id) column
+Users:
+1. db/migrations/04_create_users_table.sql -> to create users table
+2. db/migrations/05_alter_password_length_limit.sql -> to lengthen password limit to allow for hashing
+3. db/migrations/06_alter_email_length_limit.sql -> to lengthen email limit
+Dates:
+1.
+2.
 
 ### Initial Planning
 
-#### Initial Goal
-Create Minimum Viable Product by end of day 2.
+#### Group Goal
+- [x] Create Minimum Viable Product by end of day 2.
 
 #### MVP
 A webpage that lists spaces available for hire.

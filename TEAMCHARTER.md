@@ -12,9 +12,9 @@ Dillon, Ilja, Matteo, Paul and Ryan
 - Expectation of fulfillment of a user story/requirement is based upon an 3+ hour afternoon session opposed to a ~2 hour morning session
 
 ### Daily Working Schedule
-- Hours of Work: 10:00 - 18:00 
+- Hours of Work: 10:00 - 18:00
 - Stand Up Every Morning: 10:00 - 10:15
-- Morning Pairing: 10:15 - 12:00 
+- Morning Pairing: 10:15 - 12:00
 - Lunch Break: 12:30-14:00
 - Afternoon Pairing:  14:00 - 17:30
 - Retrospective Every Evening: 17:30-18:00
@@ -28,10 +28,11 @@ Dillon, Ilja, Matteo, Paul and Ryan
 All team roles rotate on a daily basis.
 
 #### Daily Positions
-2 pair teams of 2 team members
-1 float "Super Navigator" 
- - being aware of upcoming compatibility and pairing team dependencies
+- 2 pair teams of 2 team members
+- 1 float "Super Navigator"
+  - Being aware of upcoming compatibility and pairing team dependencies
+  - Pull request approvals
+  - Directing work
 
-
+We followed this guide to help build our charter!:
 [Team Charter Guide](https://docs.google.com/document/d/1w7NYpBkFHx2If4B3iQ6LMX0IXa5ovDC7NU-TkoMLbVk/edit)
-
